@@ -1,0 +1,13 @@
+body{
+    background: white url("../images/bg.jpg") no-repeat;
+    background-size: 100%;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-item {
+    list-style-position:inside;
+    border: 1px solid white;
+}

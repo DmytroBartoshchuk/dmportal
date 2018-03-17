@@ -11,9 +11,21 @@
     <!-- Local CSS -->
     <link rel="stylesheet" type="text/css" href="{% static 'personal/style.css' %}" />
 
-    <title>Personal Page</title>
+    <title>Personal page</title>
   </head>
   <body>
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">CV</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Let's learn programming</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Travel</a>
+      </li>
+    </ul>
+
 
     {% block home-content %}
     {% endblock %}
